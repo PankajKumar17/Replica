@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-content">
+        <div class="searchbar">
+            <ul>
+                <li class="arrow"><img src="arrow-left.svg" alt="." class="bo1"><img src="arrow-right.svg" alt="." class="bo1"></li>
+                <form>
+                    <div id="search-bar">
+                      <img src="search.svg" alt="Search">
+                      <input type="text" placeholder="Artists, Songs or Podcasts">
+                    </div>
+                  </form>
+            </ul>
+        </div>
+        <br>
+        <h2>Your top genres</h2>
+        <br>
+        <div class="largeboxes">
+            <div class="bo pop"><h1>Pop</h1></div>
+            <div class="bo hiphop"><h1>Hip-Hop</h1></div>
+            <div class="bo1 lastarrow"><img src="lastarrow.png" alt=""></div>
+        </div>
+        <br>
+        <h2>Browse all</h2><br>
+        <div class="smallboxes">
+            <div class="bo box1"><h2>Podcasts</h2></div>
+            <div class="bo box2"><h2>Made For You</h2></div>
+            <div class="bo box3"><h2>Charts</h2></div>
+            <div class="bo box4"><h2>New Release</h2></div>
+        </div>
+    </div>
+    <h1 class="heading" ><img src="Spotify logo.png" alt="S"></h2>
+    <ul class="nav up">
+        <li><img src="home.svg" alt="H"><a href="https://open.spotify.com/">Home</a></li>
+        <li><img src="search-white.svg" alt="S">Search</li>
+        <li><img src="library.svg" alt="Yo">Your Library</li>
+    </ul>
+    <ul class="nav down">
+        <li class="bo"><img src="Plus-small.svg" alt="C">Create Playlist</li>
+        <li class="bo"><img src="Heart.svg" alt="L">Liked Songs</li>
+        <li class="bo"><img src="media-podcast.svg" alt="Y">Your Episodes</li>
+    </ul>
+    <ul class="nav downer">
+        <li class="bo"><img src="download.png" alt="I">Install App</li>
+    </ul>
+    <section class="flex-horizontal" id="footer">
+        <div class="flex-horizontal" id="current-song">
+          <img src="Heart.svg" alt="" />
+          <div id="song-info">
+            <span id="song">Dreaming On</span> <br />
+            <span id="artist">NEFFEX</span>
+          </div>
+          <span class="bo1 heart"><img src="greenheart.png" alt="a"></span>
+        </div>
+        <div id="player">
+          <div class="flex-horizontal" id="controls">
+            <img src="shuffle.svg" class="bo" alt="shuffle button" />
+            <img src="skip-previous.svg" class="bo1" alt="skip previous" />
+            <img src="play.svg" alt="play" class="bo1" id="play"/>
+            <img src="skip-forward.svg" class="bo1" alt="skip forward" />
+            <img src="repeat-all.svg" class="bo1" alt="repeat" />
+          </div>
+          <div class="flex-horizontal" id="part-played">
+            <span>2:11</span> <img src="time-bar.svg" alt="time-bar" />
+            <span>2:42</span>
+          </div>
+        </div>
+</body>
+</html>
